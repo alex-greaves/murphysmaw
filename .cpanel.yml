@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=.
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/
+    - /bin/cp -R / $DEPLOYPATH
