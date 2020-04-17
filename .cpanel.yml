@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/
+    - export DEPLOYPATH=/home/murph200/murphysmaw.com
     - /bin/cp -R / $DEPLOYPATH
